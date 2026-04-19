@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+  <meta name="description" content="Jarretts Renovations LLC project gallery — bathroom remodels, flooring, painting and more across the Atlanta metro area."/>
+  <title>Our Work | Jarretts Renovations LLC</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+<div class="shell">
+
+  <nav>
+    <a class="nav-brand" href="index.html">
+      <div class="nav-logo-wrap"><img src="assets/logo.jpg" alt="Jarretts Renovations LLC"/></div>
+      <div><span class="nav-name-top">JARRETTS RENOVATIONS</span><span class="nav-name-sub">LLC &middot; Lithonia, GA</span></div>
+    </a>
+    <div class="nav-links">
+      <a class="nav-link" href="index.html">Home</a>
+      <a class="nav-link" href="services.html">Services</a>
+      <a class="nav-link active" href="gallery.html">Our Work</a>
+      <a class="nav-link" href="about.html">About Us</a>
+      <a class="nav-link" href="contact.html">Contact</a>
+    </div>
+    <a class="nav-cta" href="tel:6789135836">&#x260E; Call Now</a>
+    <button class="hamburger" onclick="openMobileMenu()"><span></span><span></span><span></span></button>
+  </nav>
+  <div class="mobile-menu" id="mobileMenu">
+    <button class="mobile-close" onclick="closeMobileMenu()">&#x2715;</button>
+    <a class="nav-link" href="index.html">Home</a>
+    <a class="nav-link" href="services.html">Services</a>
+    <a class="nav-link" href="gallery.html">Our Work</a>
+    <a class="nav-link" href="about.html">About Us</a>
+    <a class="nav-link" href="contact.html">Contact</a>
+    <a class="btn-primary" href="tel:6789135836" style="margin-top:1rem">Call (678) 913-5836</a>
+  </div>
+
+  <section class="page-header">
+    <div class="page-header-inner">
+      <div class="gold-bar"></div>
+      <h1>Our Work</h1>
+      <p>A showcase of recent projects &mdash; each one a testament to quality craftsmanship and attention to detail across the Atlanta area.</p>
+    </div>
+  </section>
+
+  <section class="sec">
+    <div class="sec-label">Project gallery</div>
+    <div class="sec-title">Recent transformations</div>
+    <p class="sec-intro">Browse through some of the spaces we&rsquo;ve transformed for homeowners and businesses.</p>
+    <div class="gallery-wrap" id="gallery-wrap"></div>
+    <div class="slide-dots" id="gallery-dots"></div>
+    <p style="text-align:center;margin-top:1.5rem;font-size:13px;color:var(--muted);font-style:italic">
+      Follow us on <a href="https://www.facebook.com/jarrettsrenovationsllc2020/" target="_blank" style="color:var(--cyan2)">Facebook</a>
+      &amp; <a href="https://www.instagram.com/jarrettsrenovations/" target="_blank" style="color:var(--cyan2)">Instagram</a> for the latest project photos.
+    </p>
+  </section>
+
+  <div class="cta-strip">
+    <h2>Love what you see?</h2>
+    <p>Let&rsquo;s talk about your project and make something beautiful together.</p>
+    <div class="cta-btns">
+      <a class="btn-primary" href="contact.html">Get a free estimate &rarr;</a>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer-brand"><div style="display:flex;align-items:center;gap:12px;margin-bottom:10px"><div class="nav-logo-wrap"><img src="assets/logo.jpg" alt="logo"/></div><span class="nav-name-top">JARRETTS RENOVATIONS</span></div><p>Family-owned renovation specialists in Lithonia, GA.</p></div>
+    <div class="footer-col"><h4>Quick links</h4><a href="index.html">Home</a><a href="services.html">Services</a><a href="gallery.html">Our Work</a><a href="about.html">About Us</a><a href="contact.html">Contact</a></div>
+    <div class="footer-col"><h4>Contact</h4><a href="tel:6789135836">(678) 913-5836</a><p>Lithonia, GA 30058</p><a href="https://www.facebook.com/jarrettsrenovationsllc2020/" target="_blank">Facebook</a><a href="https://www.instagram.com/jarrettsrenovations/" target="_blank">Instagram</a></div>
+  </footer>
+  <div class="footer-bottom"><p>&copy; 2025 Jarretts Renovations, LLC</p><p>License #20128768</p></div>
+</div>
+<script src="js/nav.js"></script>
+<script src="js/gallery.js"></script>
+<script>buildSlideshow('gallery-wrap','gallery-dots');</script>
+</body>
+</html>

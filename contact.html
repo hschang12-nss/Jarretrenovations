@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+  <meta name="description" content="Contact Jarretts Renovations LLC — call (678) 913-5836 or send a message for a free estimate on your renovation project."/>
+  <title>Contact | Jarretts Renovations LLC</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+<div class="shell">
+
+  <nav>
+    <a class="nav-brand" href="index.html">
+      <div class="nav-logo-wrap"><img src="assets/logo.jpg" alt="Jarretts Renovations LLC"/></div>
+      <div><span class="nav-name-top">JARRETTS RENOVATIONS</span><span class="nav-name-sub">LLC &middot; Lithonia, GA</span></div>
+    </a>
+    <div class="nav-links">
+      <a class="nav-link" href="index.html">Home</a>
+      <a class="nav-link" href="services.html">Services</a>
+      <a class="nav-link" href="gallery.html">Our Work</a>
+      <a class="nav-link" href="about.html">About Us</a>
+      <a class="nav-link active" href="contact.html">Contact</a>
+    </div>
+    <a class="nav-cta" href="tel:6789135836">&#x260E; Call Now</a>
+    <button class="hamburger" onclick="openMobileMenu()"><span></span><span></span><span></span></button>
+  </nav>
+  <div class="mobile-menu" id="mobileMenu">
+    <button class="mobile-close" onclick="closeMobileMenu()">&#x2715;</button>
+    <a class="nav-link" href="index.html">Home</a>
+    <a class="nav-link" href="services.html">Services</a>
+    <a class="nav-link" href="gallery.html">Our Work</a>
+    <a class="nav-link" href="about.html">About Us</a>
+    <a class="nav-link" href="contact.html">Contact</a>
+    <a class="btn-primary" href="tel:6789135836" style="margin-top:1rem">Call (678) 913-5836</a>
+  </div>
+
+  <section class="page-header">
+    <div class="page-header-inner">
+      <div class="gold-bar"></div>
+      <h1>Get in Touch</h1>
+      <p>Ready to start your renovation? Reach out for a free estimate or just to ask a question &mdash; we&rsquo;re always happy to help.</p>
+    </div>
+  </section>
+
+  <section class="sec">
+    <div class="contact-layout">
+      <div class="contact-card">
+        <div class="contact-card-title">Contact information</div>
+        <div class="contact-card-sub">We&rsquo;re based in Lithonia, GA and serve the greater Atlanta metro area. Give us a call &mdash; we&rsquo;re friendly and happy to help.</div>
+        <div class="contact-detail">
+          <div class="contact-ico"><svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.4 11.37a19.79 19.79 0 01-3.07-8.67A2 2 0 012.32 2h3a2 2 0 012 1.72c.13.96.36 1.9.7 2.81a2 2 0 01-.45 2.11L6.91 9.91a16 16 0 006.09 6.09l1.27-1.27a2 2 0 012.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0122 16.92z"/></svg></div>
+          <div class="contact-detail-text"><h4>Phone</h4><a href="tel:6789135836">(678) 913-5836</a></div>
+        </div>
+        <div class="contact-detail">
+          <div class="contact-ico"><svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
+          <div class="contact-detail-text"><h4>Location</h4><p>Lithonia, Georgia 30058</p></div>
+        </div>
+        <div class="contact-detail">
+          <div class="contact-ico"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg></div>
+          <div class="contact-detail-text"><h4>Hours</h4><p>Mon&ndash;Sat: 7am &ndash; 7pm<br/>Sun: By appointment</p></div>
+        </div>
+        <div class="contact-detail">
+          <div class="contact-ico"><svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
+          <div class="contact-detail-text"><h4>Free estimates</h4><p>We offer free on-site estimates for all projects</p></div>
+        </div>
+        <div class="socials">
+          <a class="social-btn" href="https://www.facebook.com/jarrettsrenovationsllc2020/" target="_blank">Facebook</a>
+          <a class="social-btn" href="https://www.instagram.com/jarrettsrenovations/" target="_blank">Instagram</a>
+          <a class="social-btn" href="https://www.houzz.com/professionals/general-contractors/jarretts-renovations-llc-pfvwus-pf~1766141467" target="_blank">Houzz</a>
+        </div>
+      </div>
+
+      <form class="contact-form" onsubmit="submitForm(event)">
+        <div class="form-row">
+          <div class="form-group"><label>First name</label><input type="text" placeholder="John" required/></div>
+          <div class="form-group"><label>Last name</label><input type="text" placeholder="Smith"/></div>
+        </div>
+        <div class="form-row">
+          <div class="form-group"><label>Phone</label><input type="tel" placeholder="(404) 555-0100"/></div>
+          <div class="form-group"><label>Email</label><input type="email" placeholder="john@email.com"/></div>
+        </div>
+        <div class="form-group">
+          <label>Service needed</label>
+          <select>
+            <option value="">Select a service...</option>
+            <option>Flooring installation</option>
+            <option>Bathroom remodeling</option>
+            <option>Shower installation</option>
+            <option>Interior painting</option>
+            <option>Exterior painting</option>
+            <option>Drywall &amp; framing</option>
+            <option>Door installation</option>
+            <option>Deck work</option>
+            <option>Handyman services</option>
+            <option>Other / not sure</option>
+          </select>
+        </div>
+        <div class="form-group"><label>Tell us about your project</label><textarea placeholder="Describe what you're looking to do, the size of the space, any timeline, etc."></textarea></div>
+        <button class="form-submit" type="submit">Send message &rarr;</button>
+        <div class="form-success" id="formSuccess">&#x2714; Thank you! We&rsquo;ll be in touch within one business day.</div>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-brand"><div style="display:flex;align-items:center;gap:12px;margin-bottom:10px"><div class="nav-logo-wrap"><img src="assets/logo.jpg" alt="logo"/></div><span class="nav-name-top">JARRETTS RENOVATIONS</span></div><p>Family-owned renovation specialists in Lithonia, GA.</p></div>
+    <div class="footer-col"><h4>Quick links</h4><a href="index.html">Home</a><a href="services.html">Services</a><a href="gallery.html">Our Work</a><a href="about.html">About Us</a><a href="contact.html">Contact</a></div>
+    <div class="footer-col"><h4>Contact</h4><a href="tel:6789135836">(678) 913-5836</a><p>Lithonia, GA 30058</p><a href="https://www.facebook.com/jarrettsrenovationsllc2020/" target="_blank">Facebook</a><a href="https://www.instagram.com/jarrettsrenovations/" target="_blank">Instagram</a></div>
+  </footer>
+  <div class="footer-bottom"><p>&copy; 2025 Jarretts Renovations, LLC</p><p>License #20128768</p></div>
+</div>
+<script src="js/nav.js"></script>
+<script>
+function submitForm(e){
+  e.preventDefault();
+  var s=document.getElementById('formSuccess');
+  s.style.display='block';
+  e.target.reset();
+  setTimeout(function(){s.style.display='none'},6000);
+}
+</script>
+</body>
+</html>

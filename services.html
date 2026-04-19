@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+  <meta name="description" content="Jarretts Renovations LLC — Full list of renovation services including flooring, bathroom remodeling, painting, drywall, handyman and more."/>
+  <title>Services | Jarretts Renovations LLC</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+<div class="shell">
+
+  <nav>
+    <a class="nav-brand" href="index.html">
+      <div class="nav-logo-wrap"><img src="assets/logo.jpg" alt="Jarretts Renovations LLC"/></div>
+      <div><span class="nav-name-top">JARRETTS RENOVATIONS</span><span class="nav-name-sub">LLC &middot; Lithonia, GA</span></div>
+    </a>
+    <div class="nav-links">
+      <a class="nav-link" href="index.html">Home</a>
+      <a class="nav-link active" href="services.html">Services</a>
+      <a class="nav-link" href="gallery.html">Our Work</a>
+      <a class="nav-link" href="about.html">About Us</a>
+      <a class="nav-link" href="contact.html">Contact</a>
+    </div>
+    <a class="nav-cta" href="tel:6789135836">&#x260E; Call Now</a>
+    <button class="hamburger" onclick="openMobileMenu()"><span></span><span></span><span></span></button>
+  </nav>
+  <div class="mobile-menu" id="mobileMenu">
+    <button class="mobile-close" onclick="closeMobileMenu()">&#x2715;</button>
+    <a class="nav-link" href="index.html">Home</a>
+    <a class="nav-link" href="services.html">Services</a>
+    <a class="nav-link" href="gallery.html">Our Work</a>
+    <a class="nav-link" href="about.html">About Us</a>
+    <a class="nav-link" href="contact.html">Contact</a>
+    <a class="btn-primary" href="tel:6789135836" style="margin-top:1rem">Call (678) 913-5836</a>
+  </div>
+
+  <section class="page-header">
+    <div class="page-header-inner">
+      <div class="gold-bar"></div>
+      <h1>Our Services</h1>
+      <p>Comprehensive renovation solutions for residential and commercial clients across the Atlanta metro area &mdash; all backed by years of hands-on experience.</p>
+    </div>
+  </section>
+
+  <section class="sec">
+    <div class="sec-label">Full service list</div>
+    <div class="sec-title">Everything we offer</div>
+    <p class="sec-intro">No job is too big or too small. We handle it all with the same care and craftsmanship.</p>
+    <div class="services-grid" style="grid-template-columns:repeat(auto-fit,minmax(200px,1fr))">
+      <div class="svc"><span class="svc-icon">&#x1FAB5;</span><h3>Hardwood flooring</h3><p>Installation, sanding, staining &amp; refinishing of solid hardwood floors</p></div>
+      <div class="svc"><span class="svc-icon">&#x1F4CF;</span><h3>Laminate &amp; vinyl</h3><p>Affordable, durable LVP &amp; laminate plank installations</p></div>
+      <div class="svc"><span class="svc-icon">&#x1F9F1;</span><h3>Tile &amp; stone</h3><p>Custom tile cutting, installation &amp; epoxy flooring</p></div>
+      <div class="svc"><span class="svc-icon">&#x1F6BF;</span><h3>Shower installation</h3><p>Full shower builds, tile surrounds &amp; frameless doors</p></div>
+      <div class="svc"><span class="svc-icon">&#x1F6C1;</span><h3>Bathroom remodeling</h3><p>Complete renovations from concept to clean-up</p></div>
+      <div class="svc"><span class="svc-icon">&#x1F4A7;</span><h3>Countertops</h3><p>Installation &amp; refinishing for kitchens, baths &amp; bars</p></div>
+      <div class="svc"><span class="svc-icon">&#x1F3A8;</span><h3>Interior painting</h3><p>Clean, precise interior paint with premium materials</p></div>
+      <div class="svc"><span class="svc-icon">&#x1F3E0;</span><h3>Exterior painting</h3><p>Full exterior painting &amp; prep for lasting curb appeal</p></div>
+      <div class="svc"><span class="svc-icon">&#x1F6AA;</span><h3>Door installation</h3><p>Exterior &amp; interior doors, sliding doors &amp; hardware</p></div>
+      <div class="svc"><span class="svc-icon">&#x1F6A7;</span><h3>Drywall</h3><p>Sheetrock hanging, taping, texturing &amp; finishing</p></div>
+      <div class="svc"><span class="svc-icon">&#x1F528;</span><h3>Framing</h3><p>Interior framing for remodels &amp; room additions</p></div>
+      <div class="svc"><span class="svc-icon">&#x1F332;</span><h3>Deck work</h3><p>Deck repair, ceiling installation &amp; deck painting</p></div>
+      <div class="svc"><span class="svc-icon">&#x1F4A5;</span><h3>Demolition</h3><p>Safe, efficient demo before your renovation begins</p></div>
+      <div class="svc"><span class="svc-icon">&#x1F527;</span><h3>Handyman services</h3><p>Baseboard, siding, concrete repair &amp; general maintenance</p></div>
+    </div>
+  </section>
+
+  <div class="cta-strip">
+    <h2>Not sure what you need?</h2>
+    <p>Give us a call and we&rsquo;ll walk you through the best options for your space and budget.</p>
+    <div class="cta-btns">
+      <a class="btn-primary" href="tel:6789135836">Call (678) 913-5836</a>
+      <a class="btn-ghost" href="contact.html">Send a message</a>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer-brand"><div style="display:flex;align-items:center;gap:12px;margin-bottom:10px"><div class="nav-logo-wrap"><img src="assets/logo.jpg" alt="logo"/></div><span class="nav-name-top">JARRETTS RENOVATIONS</span></div><p>Family-owned renovation specialists in Lithonia, GA.</p></div>
+    <div class="footer-col"><h4>Quick links</h4><a href="index.html">Home</a><a href="services.html">Services</a><a href="gallery.html">Our Work</a><a href="about.html">About Us</a><a href="contact.html">Contact</a></div>
+    <div class="footer-col"><h4>Contact</h4><a href="tel:6789135836">(678) 913-5836</a><p>Lithonia, GA 30058</p><a href="https://www.facebook.com/jarrettsrenovationsllc2020/" target="_blank">Facebook</a><a href="https://www.instagram.com/jarrettsrenovations/" target="_blank">Instagram</a></div>
+  </footer>
+  <div class="footer-bottom"><p>&copy; 2025 Jarretts Renovations, LLC</p><p>License #20128768</p></div>
+</div>
+<script src="js/nav.js"></script>
+</body>
+</html>
