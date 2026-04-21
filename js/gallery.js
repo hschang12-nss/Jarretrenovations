@@ -9,6 +9,9 @@ var GALLERY = [
   { file: "gallery/project-bathroom-1.jpg",  title: "Master Bathroom Renewal",    tag: "Bathroom Remodel", desc: "East Point, GA · Full renovation & tile work" },
   { file: "gallery/project-shower-1.jpg",    title: "Custom Shower Installation",  tag: "Shower",           desc: "Atlanta metro · Custom tile & fixture upgrade" },
   { file: "gallery/project-interior-1.jpg",  title: "Interior Renovation",         tag: "Interior",         desc: "Lithonia, GA · Expert craftsmanship throughout" },
+  { file: "gallery/project-bathroom-2.jpg",    title: "Custom Shower Installation",  tag: "Shower",           desc: "Atlanta metro · Custom tile & fixture upgrade" },
+  { file: "gallery/project-flooring-1.jpg",    title: "Custom Flooring Installation",  tag: "Flooring",           desc: "Atlanta metro · Custom Flooring upgrade" },
+  { file: "gallery/project-decking-1.jpg",    title: "Custom Decking Installation",  tag: "Decking",           desc: "Atlanta metro · Custom Decking upgrade" },
 
   // ── Add your new photos below this line ──────────
   // { file: "gallery/your-photo.jpg", title: "Project Title", tag: "Type of Work", desc: "City, GA · Description" },
